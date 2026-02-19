@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-groundstation`](https://www.npmjs.com/package/@aws-sdk/client-groundstation/v/3.592.0).
+[`@aws-sdk/client-groundstation`](https://www.npmjs.com/package/@aws-sdk/client-groundstation/v/3.596.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-groundstation@3.592.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-groundstation@3.596.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-t0dKk6Y7FARdmYA/1T9L02Kegj8S5jMhpq9wK7WeYHo3JtBvON8oIhd+/O7iMc5G
+sha384-7eWUBA12MqZK2o3kUv4BIRdpyj+W+Unu4Rs1cRlmmMDCD7N8Vg+EC2xrbaXZSIJS
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-groundstation": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-groundstation@3.592.0/index.min.mjs"
+            "@aws-sdk/client-groundstation": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-groundstation@3.596.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-groundstation@3.592.0/index.min.mjs": "sha384-t0dKk6Y7FARdmYA/1T9L02Kegj8S5jMhpq9wK7WeYHo3JtBvON8oIhd+/O7iMc5G"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-groundstation@3.596.0/index.min.mjs": "sha384-7eWUBA12MqZK2o3kUv4BIRdpyj+W+Unu4Rs1cRlmmMDCD7N8Vg+EC2xrbaXZSIJS"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-groundstation": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-groundstation@3.592.0/index.min.mjs"
+                        "@aws-sdk/client-groundstation": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-groundstation@3.596.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-groundstation@3.592.0/index.min.mjs": "sha384-t0dKk6Y7FARdmYA/1T9L02Kegj8S5jMhpq9wK7WeYHo3JtBvON8oIhd+/O7iMc5G"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-groundstation@3.596.0/index.min.mjs": "sha384-7eWUBA12MqZK2o3kUv4BIRdpyj+W+Unu4Rs1cRlmmMDCD7N8Vg+EC2xrbaXZSIJS"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.592.0`)
+* Always pin to a specific version (`@3.596.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-groundstation/blob/refs/tags/3.592.0/LICENSE
+https://github.com/cloud-sdk-builds/client-groundstation/blob/refs/tags/3.596.0/LICENSE
 ```
 
 ---
